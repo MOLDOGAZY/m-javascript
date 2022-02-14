@@ -116,17 +116,23 @@
 // console.log(welcomeMessage); // => Hallo, Молдогазы!
 
 /*-------------------> Array <-------------------*/
-let arrName = [
-  "Молдогазы",
-  "Кабылбеков",
-  "Санжарбек",
-  "Абдулжан",
-  "Абдулжанова",
-];
+// let arrName = [
+//   "Молдогазы",
+//   "Кабылбеков",
+//   "Санжарбек",
+//   "Абдулжан",
+//   "Абдулжанова",
+// ];
 // console.log(arrName[0]); // => Молдогазы
 // console.log(arrName[100]); // => undefined
 // arrName.push("Атамбеков"); // push массивдин акырына кошот
 // console.log(arrName);
 
-console.log(arrName.pop()); // => Абдулжанова pop'ко маани берүүнүн кереги жок жана массивдин акырынан өчүрөт
-console.log(arrName); // Молдогазы Кабылбеков Санжарбек Абдулжан
+// console.log(arrName.pop()); // => Абдулжанова pop'ко маани берүүнүн кереги жок жана массивдин акырынан өчүрөт
+// console.log(arrName); // Молдогазы Кабылбеков Санжарбек Абдулжан
+
+const a = "Lorem ipsum dollar sit amet 01234567809 4 54 415497802";
+const b = a.replace(/[0-5]/g, "X");
+
+console.log(a);
+console.log(b);
