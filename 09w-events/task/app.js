@@ -13,9 +13,9 @@ window.addEventListener("load", () => {
     else {
       const todoItem = document.createElement("div");
       todoItem.classList.add("todo-item");
-      todoList.appendChild(todoItem);
+      todoList.append(todoItem);
       todoItem.innerText = inputTodo.value;
-
+      inputTodo.value = "";
       todoItem.addEventListener("click", () => {
         todoItem.remove();
       });
